@@ -14,7 +14,7 @@ namespace MTP {
 struct ConfigFields {
 	int chatSizeMax = 200;
 	int megagroupSizeMax = 10000;
-	int forwardedCountMax = 100;
+	int forwardedCountMax = 100000;
 	int onlineUpdatePeriod = 120000;
 	int offlineBlurTimeout = 5000;
 	int offlineIdleTimeout = 30000;
